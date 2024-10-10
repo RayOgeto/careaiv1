@@ -1,0 +1,198 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+            "Hi", 
+            "Hello", 
+            "How are you?", 
+            "Good morning",
+            "Hey",
+            "Good day",
+            "Good afternoon",
+            "Good evening",
+            "Is anyone there?",
+            "Hey there"
+        ],
+        "responses": [
+            "Hey :-)",
+            "Hello! How can I assist you today?", 
+            "Hi, what can I do for you?",
+            "Hello, thanks for visiting",
+            "Hi there, what can I do for you?",
+            "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "diarrhea_symptoms",
+        "patterns": [
+            "What are the symptoms of diarrhea?", 
+            "Tell me the symptoms of diarrhea", 
+            "How do I know I have diarrhea?", 
+            "What should I look for if I have diarrhea?", 
+            "Can you list the symptoms of diarrhea?", 
+            "Frequent loose or watery stools",
+            "Abdominal cramps",
+            "Nausea",
+            "Vomiting",
+            "Bloating",
+            "Fatigue",
+            "Urgent need to defecate",
+            "Dehydration",
+            "Blood in stools"
+        ],
+        "responses": ["Common symptoms of diarrhea include frequent loose or watery stools, abdominal cramps, nausea, and bloating."]
+      },
+      {
+        "tag": "prevention",
+        "patterns": [
+            "How to prevent diarrhea?", 
+            "Prevention tips for diarrhea", 
+            "What can I do to avoid diarrhea?"
+        ],
+        "responses": ["Prevent diarrhea by drinking clean water, washing your hands frequently, and eating properly cooked food."]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": [
+            "Thank you", 
+            "Thanks", 
+            "That's helpful", 
+            "I appreciate it", 
+            "Thanks alot!"],
+        "responses": [
+            "You're welcome!", 
+            "Happy to help!", 
+            "No problem!", 
+            "Any time!", 
+            "My Pleasure"
+        ]
+      },
+      {
+        "tag": "cholera",
+        "patterns": [
+          "What are the symptoms of cholera?",
+          "How does cholera spread?",
+          "What should I do if I suspect cholera?",
+          "How can I prevent cholera?",
+          "watery diarrhea",
+          "cholera"
+        ],
+        "responses": [
+          "Cholera is characterized by watery diarrhea, vomiting, and dehydration. Seek medical attention immediately.",
+          "Cholera spreads through contaminated water and food. Ensure access to clean water and proper sanitation.",
+          "Prevent cholera by drinking clean water, practicing good hygiene, and getting vaccinated if at risk.",
+          "Common symptoms of cholera include watery diarrhea, abdominal cramps, nausea, vomiting, and dehydration. Severe cases can lead to shock and death if untreated."
+        ]
+      },
+      {
+        "tag": "dysentery",
+        "patterns": [
+          "What are the signs of dysentery?",
+          "How do you get dysentery?",
+          "What to do if I have dysentery?",
+          "How can I prevent dysentery?",
+          "common symptoms of dysentry",
+          "blood in stool",
+          "dysentery"
+        ],
+        "responses": [
+          "Dysentery often presents with diarrhea containing blood or mucus, abdominal pain, and fever. Consult a healthcare provider.",
+          "Common symptoms of dysentery include diarrhea with blood or mucus, abdominal pain, fever, and dehydration. It is crucial to seek medical attention if you experience these symptoms.",
+          "It is commonly caused by consuming contaminated food or water. Maintain good hygiene to prevent it.",
+          "To prevent dysentery, avoid unclean food and water, and ensure proper sanitation."
+        ]
+      },
+      {
+        "tag": "gastroenteritis",
+        "patterns": [
+          "What are the symptoms of gastroenteritis?",
+          "How is gastroenteritis treated?",
+          "What causes gastroenteritis?",
+          "How can I prevent gastroenteritis?",
+          "gastroenteritis",
+          "common symptoms of gastroenteritis"
+        ],
+        "responses": [
+          "Gastroenteritis symptoms include diarrhea, vomiting, and abdominal cramps. Stay hydrated and rest.",
+          "Treatment focuses on hydration and managing symptoms. Seek medical attention if severe.",
+          "Prevent gastroenteritis by practicing good food hygiene and washing hands frequently."
+        ]
+      },
+      {
+        "tag": "amoebiasis_symptoms",
+        "patterns": [
+          "What are the symptoms of amoebiasis?", 
+          "Tell me the symptoms of amoebiasis", 
+          "How do I know I have amoebiasis?", 
+          "Common symptoms of amoebiasis",
+          "Bloody diarrhea",
+          "amoeba",
+          "amoeba infection"
+        ],
+        "responses": [
+          "Common symptoms of amoebiasis include diarrhea (often bloody), abdominal cramps, and fatigue. If you suspect amoebiasis, seek medical evaluation and treatment."
+        ]
+      },
+      {
+        "tag": "rotavirus",
+        "patterns": [
+          "What is rotavirus?",
+          "How can I tell if it's rotavirus?",
+          "What should I do for rotavirus?",
+          "How can I prevent rotavirus?",
+          "servere diarhea",
+          "rotavirus",
+          "rotavirus infection",
+          "rota"
+        ],
+        "responses": [
+          "Rotavirus causes severe diarrhea, primarily in children. Maintain hydration and consult a doctor if needed.",
+          "Look for symptoms like watery diarrhea, vomiting, and fever.",
+          "Common symptoms of rotavirus include severe watery diarrhea, vomiting, fever, and abdominal pain. It is highly contagious and can lead to dehydration, especially in young children.",
+          "Vaccination is key to preventing rotavirus. Ensure your child is vaccinated."
+        ]
+      },
+      {
+        "tag": "typhoid_symptoms",
+        "patterns": [
+          "What are the symptoms of typhoid?", 
+          "Tell me the symptoms of typhoid", 
+          "How do I know I have typhoid?", 
+          "Common symptoms of typhoid",
+          "Fever and abdominal pain",
+          "typhoid"
+        ],
+        "responses": [
+          "Common symptoms of typhoid include prolonged fever, fatigue, abdominal pain, headache, and diarrhea or constipation. It is important to consult a healthcare provider for diagnosis and treatment."
+        ]
+      },
+      {
+        "tag": "sick",
+        "patterns": [
+            "i'm sick",
+            "i feel sick",
+            "sick",
+            "i'm really sick",
+            "i feel really sick",
+            "i'm not feeling well"
+        ],
+        "responses": [
+            "how are you feeling right now?",
+            "could you describe your symptoms?",
+            "tell me how you feel",
+            "what's wrong?"
+        ]
+      }
+    ]
+  }
+  
